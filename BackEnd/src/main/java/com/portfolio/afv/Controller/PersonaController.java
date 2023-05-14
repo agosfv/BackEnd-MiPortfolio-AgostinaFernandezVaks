@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.portfolio.afv.Controller;
 
 import com.portfolio.afv.Entity.Persona;
@@ -53,8 +57,9 @@ public class PersonaController {
    
    @GetMapping("/personas/traer/perfil")
    public Persona findPersona(){
-       return ipersonaService.findPersona((long)4);
+       return ipersonaService.findPersona((long)1);
    }
         
 
 }
+
